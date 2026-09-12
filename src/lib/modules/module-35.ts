@@ -40,7 +40,7 @@ Alert pipeline:
 ## Capabilities that matter
 
 - **Process genealogy** (parent→child): 'Word spawned PowerShell' = lead
-- **Behavioral rules**: powershell download cradle, LSASS read, wми spawning
+- **Behavioral rules**: powershell download cradle, LSASS read, wmi spawning
 - **Live response**: kill, quarantine, terminate process, take memory/image
 - **Hunting UI**: search across events (my new file, evtx)
 - **Rollback**: some EDRs offer 'restore point' after ransomware

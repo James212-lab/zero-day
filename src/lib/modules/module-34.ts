@@ -275,7 +275,7 @@ console.log('white cells = detection gaps (== where attackers live)');`,
 - **OpenCTI**: model knowledge (STIX 2.1); graph-based
 - **VirusTotal / Recorded Future / Flashpoint**: commercial + web
 
-Key workflows: **enrichment** (hash→детails), **correlation** (does this IP appear in 3 intel events?), **sharing** (anonymize + publish only vetted).
+Key workflows: **enrichment** (hash→details), **correlation** (does this IP appear in 3 intel events?), **sharing** (anonymize + publish only vetted).
 
 ## Feeding your detection
 
