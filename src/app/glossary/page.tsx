@@ -3,7 +3,7 @@ import GlossaryBrowser from "@/components/GlossaryBrowser";
 
 export const metadata = {
   title: "Glossary — Zero Day",
-  description: "The Zero Day cybersecurity glossary: every term you'll meet across the 20 modules.",
+  description: "The Zero Day cybersecurity glossary: every term you'll meet across the 40 modules.",
 };
 
 export default function GlossaryPage() {

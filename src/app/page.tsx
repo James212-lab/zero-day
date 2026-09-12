@@ -72,7 +72,7 @@ export default function HomePage() {
           </div>
           <pre className="p-4 md:p-5 text-xs md:text-sm leading-relaxed overflow-x-auto">
 {`> INITIALIZING ZERO-DAY CURRICULUM...
-> 20 MODULES DETECTED / 6 PHASES
+> ${String(modules.length).padStart(2, '0')} MODULES DETECTED / ${phases.length} PHASES
 > MODE: HANDS-ON, EVERY LESSON SHIPS A HOME LAB
 > WARNING: SOME LESSONS REQUIRE A VIRTUAL MACHINE
 > RECOMMENDED SETUP: VIRTUALBOX + KALI + UBUNTU

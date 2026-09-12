@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ClientLayout from "@/components/ClientLayout";
+import { modules, phases } from "@/lib/curriculum";
+
+const totalLessons = modules.reduce((n, m) => n + m.lessons.length, 0);
 
 export const metadata: Metadata = {
   title: "Zero Day — Cybersecurity Mastery",
-  description:
-    "Master cybersecurity from the hardware up to advanced defense and governance. 20 modules, 78 hands-on lessons, real home labs. Everything runs offline in-browser.",
+  description: `Master cybersecurity from the hardware up to advanced defense, governance and emerging threats. ${modules.length} modules, ${phases.length} phases, ${totalLessons} hands-on lessons, real home labs. Everything runs offline in-browser.`,
 };
 
 export default function RootLayout({
