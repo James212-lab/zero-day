@@ -1,0 +1,23 @@
+ZERO DAY - Google Flow Image Prompts
+Open https://labs.google/fx/tools/image-fx or Gemini/ChatGPT image gen, run each prompt, save as JPEG/PNG into images/ folder. Optimize with sharp before committing (scripts/optimize-images.mjs).
+
+HERO / OG IMAGE (images/hero.jpg):
+"A dark cyberpunk cybersecurity training platform hero banner, near-black background #030308, neon green matrix code and circuit traces forming a glowing skull with a binary eye, hexagon nodes connecting like a network map, faint scanlines, ultra clean vector style, dramatic green glow, no text"
+
+PHASE 1 - FUNDAMENTALS (images/phase-1.jpg):
+"Cyberpunk illustration of computer hardware anatomy: glowing CPU chip, RAM sticks, motherboard circuits and a small IoT sensor module, dark background with neon green rim lighting, wireframe style, network nodes connecting the components, no text"
+
+PHASE 2 - CORE SECURITY (images/phase-2.jpg):
+"Cyberpunk illustration of a glowing padlock being constructed from binary code and encryption keys, shield with circuit patterns, dark background neon green and blue lighting, wireframe hexagons, no text"
+
+PHASE 3 - THREATS & ATTACKS (images/phase-3.jpg):
+"Cyberpunk illustration of an intruder breaking through layered security barriers: firewall wall shattering into hexagon fragments, glowing phish hook and malware bugs, dark background with neon red and green rim light, wireframe style, no text"
+
+PHASE 4 - DEFENSE & MONITORING (images/phase-4.jpg):
+"Cyberpunk security operations center scene: massive wall of glowing monitors with rising graphs and logs, radar and shield icons, analyst silhouette at center, dark background neon green and cyan glow, wireframe hexagons, no text"
+
+PHASE 5 - GOVERNANCE (images/phase-5.jpg):
+"Cyberpunk illustration of a glowing gavel and a balanced scale made of circuit lines, document with security policies and checkmarks, dark background with neon amber and green rim lighting, wireframe style, no text"
+
+PHASE 6 - ADVANCED ENGINEERING (images/phase-6.jpg):
+"Cyberpunk illustration of a cloud fortress with glowing towers and industrial OT control gears integrated into cloud shapes, layered defense rings, dark background neon green and purple rim light, wireframe hexagons, no text"
